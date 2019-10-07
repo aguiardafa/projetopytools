@@ -2,6 +2,7 @@ from unittest import TestCase
 
 from libpythonpro import githubapi
 
+
 class TesteGitHubApi(TestCase):
     def teste_busca_avatar(self):
         usuario = 'aguiardafa'
