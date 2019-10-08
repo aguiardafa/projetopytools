@@ -9,6 +9,8 @@ Nesse curso é ensinado como contribuir com projetos de código aberto
 Link para o curso [Python Pro](https://www.python.pro.br/)
 
 [![Build Status](https://travis-ci.org/aguiardafa/projetopytools.svg?branch=master)](https://travis-ci.org/aguiardafa/projetopytools)
+[![Updates](https://pyup.io/repos/github/aguiardafa/projetopytools/shield.svg)](https://pyup.io/repos/github/aguiardafa/projetopytools/)
+[![Python 3](https://pyup.io/repos/github/aguiardafa/projetopytools/python-3-shield.svg)](https://pyup.io/repos/github/aguiardafa/projetopytools/)
 
 Suportada versão 3 de Python
 
