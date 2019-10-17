@@ -1,2 +1,7 @@
 def test_int():
-    assert 1 == 1
+    """
+    Exemplo de Teste em Python utilizando o framework Pytest
+    Assim NÃO sendo necessário importação
+    """
+    assert 1 == 0
+
