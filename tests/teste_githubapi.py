@@ -4,6 +4,10 @@ from libpythonpro import githubapi
 
 
 class TesteGitHubApi(TestCase):
+    """
+    Exemplo de Teste em Python utilizando o framework unittest
+    Assim sendo necessária a importação
+    """
     def teste_busca_avatar(self):
         usuario = 'aguiardafa'
 
