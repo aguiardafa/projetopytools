@@ -4,4 +4,3 @@ def test_int():
     Assim NÃO sendo necessário importação
     """
     assert 1 == 0
-
