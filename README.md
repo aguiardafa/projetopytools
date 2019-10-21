@@ -11,6 +11,7 @@ Link para o curso [Python Pro](https://www.python.pro.br/)
 [![Build Status](https://travis-ci.org/aguiardafa/projetopytools.svg?branch=master)](https://travis-ci.org/aguiardafa/projetopytools)
 [![Updates](https://pyup.io/repos/github/aguiardafa/projetopytools/shield.svg)](https://pyup.io/repos/github/aguiardafa/projetopytools/)
 [![Python 3](https://pyup.io/repos/github/aguiardafa/projetopytools/python-3-shield.svg)](https://pyup.io/repos/github/aguiardafa/projetopytools/)
+[![codecov](https://codecov.io/gh/aguiardafa/projetopytools/branch/master/graph/badge.svg)](https://codecov.io/gh/aguiardafa/projetopytools)
 
 Suportada versão 3 de Python
 
@@ -34,3 +35,4 @@ Tópicos a serem abordados:
  2. Virtualenv
  3. Pip
  4. Pytest
+ 5. Codecov
