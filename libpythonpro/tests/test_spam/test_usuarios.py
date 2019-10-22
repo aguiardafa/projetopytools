@@ -1,10 +1,21 @@
+import pytest
+
 from libpythonpro.spam.db import Conexao
 from libpythonpro.spam.models import Usuario
 
 
-def test_salvar_usuario():
-    conexao = Conexao()
-    sessao = conexao.gerar_sessao()
+@pytest.fixture
+def conexao():
+    return Conexao()
+
+
+@pytest.fixture
+def sessao(conexao):
+    sessao_obj = conexao.gerar_sessao()
+    return sessao_obj
+
+
+def test_salvar_usuario(conexao, sessao):
     usuario = Usuario(nome='Diego')
     sessao.salvar(usuario)
     assert isinstance(usuario.id, int)
@@ -13,9 +24,7 @@ def test_salvar_usuario():
     conexao.fechar()
 
 
-def test_listar_usuarios():
-    conexao = Conexao()
-    sessao = conexao.gerar_sessao()
+def test_listar_usuarios(conexao, sessao):
     usuarios = [Usuario(nome='Diego'), Usuario(nome='Aguiar')]
     for usuario in usuarios:
         sessao.salvar(usuario)
