@@ -6,22 +6,27 @@ from libpythonpro.spam.models import Usuario
 
 @pytest.fixture
 def conexao():
-    return Conexao()
+    # setup
+    conexao_obj = Conexao()
+    yield conexao_obj
+    # tear down
+    conexao_obj.fechar()
 
 
 @pytest.fixture
 def sessao(conexao):
+    # setup
     sessao_obj = conexao.gerar_sessao()
-    return sessao_obj
+    yield sessao_obj
+    # tear down
+    sessao_obj.roll_back()
+    sessao_obj.fechar()
 
 
 def test_salvar_usuario(conexao, sessao):
     usuario = Usuario(nome='Diego')
     sessao.salvar(usuario)
     assert isinstance(usuario.id, int)
-    sessao.roll_back()
-    sessao.fechar()
-    conexao.fechar()
 
 
 def test_listar_usuarios(conexao, sessao):
@@ -29,6 +34,3 @@ def test_listar_usuarios(conexao, sessao):
     for usuario in usuarios:
         sessao.salvar(usuario)
     assert usuarios == sessao.listar()
-    sessao.roll_back()
-    sessao.fechar()
-    conexao.fechar()
