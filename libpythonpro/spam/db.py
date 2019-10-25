@@ -1,3 +1,6 @@
+from time import sleep
+
+
 class Sessao:
     contador = 0
     usuarios = []
@@ -19,6 +22,17 @@ class Sessao:
 
 
 class Conexao:
+
+    def __init__(self):
+        """
+            Emulando a demora da abertura de uma conexão
+            a fim de demonstrar a necessidade de ampliação do escopo de fixture
+            O escopo padrão é por função
+            Porém ampliaremos para módulo
+            De modo que a criação da Conexão seja realizada uma vez pra cada módulo que a usa
+        """
+        sleep(10)
+
     def gerar_sessao(self):
         return Sessao()
 
