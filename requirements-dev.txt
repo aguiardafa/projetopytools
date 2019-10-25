@@ -18,7 +18,7 @@ more-itertools==7.2.0
 six==1.12.0
 attrs==19.3.0
 pluggy==0.13.0
-pytest==5.2.1
+pytest==5.2.2
 
 #Converage
 coverage==4.5.4
