@@ -5,7 +5,7 @@ from libpythonpro.spam.main import EnviadorDeSpam
 from libpythonpro.spam.models import Usuario
 
 """
-Teste implementado utilizando injeção de dependências na criação do Mock 
+Teste implementado utilizando injeção de dependências na criação do Mock
 """
 
 
