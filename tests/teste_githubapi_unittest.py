@@ -7,6 +7,10 @@ class TesteGitHubApi(TestCase):
     """
     Exemplo de Teste em Python utilizando o framework unittest
     Assim sendo necessária a importação
+
+    Apesar de usar unittest este é um teste de integração
+    Tendo em vista que está fazendo a chamada real da API,
+    logo caso a API falhe o teste falha, ou seja, a integração falhou
     """
     def teste_busca_avatar(self):
         usuario = 'aguiardafa'

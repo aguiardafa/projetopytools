@@ -24,4 +24,7 @@ pytest==5.2.2
 coverage==4.5.4
 pytest-cov==2.8.1
 
+# Deps do pytest-mock
+pytest-mock==1.11.2
+
 -r requirements.txt
