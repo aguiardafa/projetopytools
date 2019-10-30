@@ -6,20 +6,23 @@ from libpythonpro import githubapi
 
 
 @pytest.fixture
-def avatar_url():
+def avatar_url(mocker):
+    """
+    Realizando setup utilizando o plugin pytest-mock
+    para isolado uso do import de forma simplificada
+    onde ele automaticamente retorna o import ao estado original após o teste
+    """
     # setup
-    get_original = githubapi.requests.get  # conservar o import original, antes de ser mockado
     url_esperada = 'https://avatars0.githubusercontent.com/u/16319889?v=4'
 
     resp_mock = Mock()
     resp_mock.json.return_value = {
         'avatar_url': url_esperada
     }
-    githubapi.requests.get = Mock(return_value=resp_mock)
-    yield url_esperada
-    # tear down
-    # retomando import original para não influenciar em outros testes
-    githubapi.requests.get = get_original
+    get_mock = mocker.patch('libpythonpro.githubapi.requests.get')
+    get_mock.return_value = resp_mock
+
+    return url_esperada
 
 
 def test_buscar_avatar(avatar_url):
