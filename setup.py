@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 
 def read(fname):
-    return codecs.open(os.path.join(os.path.dirname(__file__), fname)).read()
+    return codecs.open(os.path.join(os.path.dirname(__file__), fname, encoding='utf-8')).read()
 
 
 # Provided as an attribute, so you can append to these instead
@@ -128,7 +128,7 @@ setup(
         "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Framework :: Pytest",
     ],
     install_requires=[
