@@ -157,10 +157,10 @@
         },
         "more-itertools": {
             "hashes": [
-                "sha256:1debcabeb1df793814859d64a81ad7cb10504c24349368ccf214c664c474f41f",
-                "sha256:56ddac45541718ba332db05f464bebfb0768110111affd27f66e0051f276fa43"
+                "sha256:0a2fd25d343c08d7e7212071820e7e7ea2f41d8fb45d6bc8a00cd6ce3b7aab88",
+                "sha256:88afff98d83d08fe5e4049b81e2b54c06ebb6b3871a600040865c7a592061cbb"
             ],
-            "version": "==8.10.0"
+            "version": "==8.11.0"
         },
         "packaging": {
             "hashes": [
