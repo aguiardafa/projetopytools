@@ -45,20 +45,14 @@
             "version": "==2.28.1"
         },
         "urllib3": {
-            "hashes": [
-                "sha256:44ece4d53fb1706f667c9bd1c648f5469a2ec925fcf3a776667042d645472c14",
-                "sha256:aabaf16477806a5e1dd19aa41f8c2b7950dd3c746362d7e3223dbe6de6ac448e"
-            ],
-            "version": "==1.26.9"
+            "hashes": [],
+            "version": "==1.26.10"
         }
     },
     "develop": {
         "atomicwrites": {
-            "hashes": [
-                "sha256:6d1784dea7c0c8d4a5172b6c620f40b6e4cbfdf96d783691f2e1302a7b88e197",
-                "sha256:ae70396ad1a434f9c7046fd2dd196fc04b12f9e91ffb859164193be8b6168a7a"
-            ],
-            "version": "==1.4.0"
+            "hashes": [],
+            "version": "==1.4.1"
         },
         "attrs": {
             "hashes": [
@@ -212,11 +206,8 @@
             "version": "==3.0.0"
         },
         "pytest-mock": {
-            "hashes": [
-                "sha256:2c6d756d5d3bf98e2e80797a959ca7f81f479e7d1f5f571611b0fdd6d1745240",
-                "sha256:d989f11ca4a84479e288b0cd1e6769d6ad0d3d7743dcc75e460d1416a5f2135a"
-            ],
-            "version": "==3.8.1"
+            "hashes": [],
+            "version": "==3.8.2"
         },
         "six": {
             "hashes": [
