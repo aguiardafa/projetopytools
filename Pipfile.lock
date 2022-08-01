@@ -46,7 +46,7 @@
         },
         "urllib3": {
             "hashes": [],
-            "version": "==1.26.10"
+            "version": "==1.26.11"
         }
     },
     "develop": {
@@ -55,11 +55,8 @@
             "version": "==1.4.1"
         },
         "attrs": {
-            "hashes": [
-                "sha256:2d27e3784d7a565d36ab851fe94887c5eccd6a463168875832a1be79c82828b4",
-                "sha256:626ba8234211db98e869df76230a137c4c40a12d72445c45d5f5b716f076e2fd"
-            ],
-            "version": "==21.4.0"
+            "hashes": [],
+            "version": "==22.1.0"
         },
         "colorama": {
             "hashes": [
@@ -80,11 +77,8 @@
             "version": "==0.4"
         },
         "flake8": {
-            "hashes": [
-                "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d",
-                "sha256:806e034dda44114815e23c16ef92f95c91e4c71100ff52813adf7132a6ad870d"
-            ],
-            "version": "==4.0.1"
+            "hashes": [],
+            "version": "==5.0.1"
         },
         "importlib-metadata": {
             "hashes": [
@@ -129,18 +123,12 @@
             "version": "==1.11.0"
         },
         "pycodestyle": {
-            "hashes": [
-                "sha256:720f8b39dde8b293825e7ff02c475f3077124006db4f440dcbc9a20b76548a20",
-                "sha256:eddd5847ef438ea1c7870ca7eb78a9d47ce0cdb4851a5523949f2601d0cbbe7f"
-            ],
-            "version": "==2.8.0"
+            "hashes": [],
+            "version": "==2.9.0"
         },
         "pyflakes": {
-            "hashes": [
-                "sha256:05a85c2872edf37a4ed30b0cce2f6093e1d0581f8c19d7393122da7e25b2b24c",
-                "sha256:3bb3a3f256f4b7968c9c788781e4ff07dce46bdf12339dcda61053375426ee2e"
-            ],
-            "version": "==2.4.0"
+            "hashes": [],
+            "version": "==2.5.0"
         },
         "pyparsing": {
             "hashes": [
