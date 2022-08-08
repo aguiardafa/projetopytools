@@ -67,7 +67,7 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==6.4.2"
+            "version": "==6.4.3"
         },
         "entrypoints": {
             "hashes": [
@@ -78,7 +78,7 @@
         },
         "flake8": {
             "hashes": [],
-            "version": "==5.0.1"
+            "version": "==5.0.4"
         },
         "importlib-metadata": {
             "hashes": [
@@ -124,7 +124,7 @@
         },
         "pycodestyle": {
             "hashes": [],
-            "version": "==2.9.0"
+            "version": "==2.9.1"
         },
         "pyflakes": {
             "hashes": [],
