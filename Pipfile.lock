@@ -78,7 +78,7 @@
         },
         "flake8": {
             "hashes": [],
-            "version": "==5.0.1"
+            "version": "==5.0.4"
         },
         "importlib-metadata": {
             "hashes": [
