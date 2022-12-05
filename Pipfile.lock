@@ -21,11 +21,8 @@
             "version": "==2022.9.24"
         },
         "chardet": {
-            "hashes": [
-                "sha256:0368df2bfd78b5fc20572bb4e9bb7fb53e2c094f60ae9993339e8671d0afb8aa",
-                "sha256:d3e64f022d254183001eccc5db4040520c0f23b1a3f33d6413e099eb7f126557"
-            ],
-            "version": "==5.0.0"
+            "hashes": [],
+            "version": "==5.1.0"
         },
         "idna": {
             "hashes": [],
