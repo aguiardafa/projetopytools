@@ -52,7 +52,7 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==6.5.0"
+            "version": "==7.1.0"
         },
         "entrypoints": {
             "hashes": [
