@@ -18,7 +18,7 @@
     "default": {
         "certifi": {
             "hashes": [],
-            "version": "==2022.12.7"
+            "version": "==2023.5.7"
         },
         "chardet": {
             "hashes": [],
@@ -34,29 +34,25 @@
         },
         "requests": {
             "hashes": [],
-            "version": "==2.28.2"
+            "version": "==2.30.0"
         },
         "urllib3": {
             "hashes": [],
-            "version": "==1.26.14"
+            "version": "==2.0.2"
         }
     },
     "develop": {
         "attrs": {
             "hashes": [],
-            "version": "==22.2.0"
+            "version": "==23.1.0"
         },
         "coverage": {
             "hashes": [],
-            "version": "==7.1.0"
+            "version": "==7.2.5"
         },
         "exceptiongroup": {
-            "hashes": [
-                "sha256:542adf9dea4055530d6e1279602fa5cb11dab2395fa650b8674eaec35fc4a828",
-                "sha256:bd14967b79cd9bdb54d97323216f8fdf533e278df937aa2a90089e7d6e06e5ec"
-            ],
-            "markers": "python_version < '3.11'",
-            "version": "==1.0.4"
+            "hashes": [],
+            "version": "==1.1.1"
         },
         "flake8": {
             "hashes": [],
@@ -64,7 +60,7 @@
         },
         "importlib-metadata": {
             "hashes": [],
-            "version": "==6.0.0"
+            "version": "==6.6.0"
         },
         "mccabe": {
             "hashes": [
@@ -76,7 +72,7 @@
         },
         "packaging": {
             "hashes": [],
-            "version": "==23.0"
+            "version": "==23.1"
         },
         "pluggy": {
             "hashes": [
@@ -87,13 +83,6 @@
             "version": "==1.0.0"
         },
         "pycodestyle": {
-            "hashes": [
-                "sha256:2c9607871d58c76354b697b42f5d57e1ada7d261c261efac224b664affdc5785",
-                "sha256:d1735fc58b418fd7c5f658d28d943854f8a849b01a5d0a1e6f3f3fdd0166804b"
-            ],
-            "version": "==1.11.0"
-        },
-        "pycodestyle": {
             "hashes": [],
             "version": "==2.10.0"
         },
@@ -102,16 +91,12 @@
             "version": "==3.0.1"
         },
         "pyparsing": {
-            "hashes": [
-                "sha256:4579f67d887f804e67edb544428f264b7b24f435b263c4614f384135cea553d2",
-                "sha256:491feb020dca48ccc562a8c0cbe8df07ee13078df59813b83959cbdada312ea3"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==2.5.0"
+            "hashes": [],
+            "version": "==3.0.9"
         },
         "pytest": {
             "hashes": [],
-            "version": "==7.2.1"
+            "version": "==7.3.1"
         },
         "pytest-cov": {
             "hashes": [
@@ -143,7 +128,7 @@
         },
         "zipp": {
             "hashes": [],
-            "version": "==3.13.0"
+            "version": "==3.15.0"
         }
     }
 }
