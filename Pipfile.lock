@@ -112,7 +112,7 @@
         },
         "wcwidth": {
             "hashes": [],
-            "version": "==0.2.6"
+            "version": "==0.2.9"
         },
         "zipp": {
             "hashes": [],
