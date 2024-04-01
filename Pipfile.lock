@@ -68,7 +68,7 @@
         },
         "packaging": {
             "hashes": [],
-            "version": "==23.1"
+            "version": "==24.0"
         },
         "pluggy": {
             "hashes": [],
