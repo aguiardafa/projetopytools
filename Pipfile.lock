@@ -88,7 +88,7 @@
         },
         "pytest": {
             "hashes": [],
-            "version": "==8.1.1"
+            "version": "==8.2.0"
         },
         "pytest-cov": {
             "hashes": [],
