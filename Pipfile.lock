@@ -44,11 +44,11 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==7.4.4"
+            "version": "==7.5.0"
         },
         "exceptiongroup": {
             "hashes": [],
-            "version": "==1.2.0"
+            "version": "==1.2.1"
         },
         "flake8": {
             "hashes": [],
@@ -72,7 +72,7 @@
         },
         "pluggy": {
             "hashes": [],
-            "version": "==1.4.0"
+            "version": "==1.5.0"
         },
         "pycodestyle": {
             "hashes": [],
@@ -88,7 +88,7 @@
         },
         "pytest": {
             "hashes": [],
-            "version": "==8.1.1"
+            "version": "==8.2.0"
         },
         "pytest-cov": {
             "hashes": [],
