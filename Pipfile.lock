@@ -18,7 +18,7 @@
     "default": {
         "certifi": {
             "hashes": [],
-            "version": "==2024.2.2"
+            "version": "==2024.6.2"
         },
         "chardet": {
             "hashes": [],
@@ -30,11 +30,11 @@
         },
         "requests": {
             "hashes": [],
-            "version": "==2.31.0"
+            "version": "==2.32.3"
         },
         "urllib3": {
             "hashes": [],
-            "version": "==2.2.1"
+            "version": "==2.2.2"
         }
     },
     "develop": {
@@ -44,7 +44,7 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==7.5.1"
+            "version": "==7.5.4"
         },
         "exceptiongroup": {
             "hashes": [],
@@ -52,11 +52,11 @@
         },
         "flake8": {
             "hashes": [],
-            "version": "==7.0.0"
+            "version": "==7.1.0"
         },
         "importlib-metadata": {
             "hashes": [],
-            "version": "==7.1.0"
+            "version": "==8.0.0"
         },
         "mccabe": {
             "hashes": [
@@ -68,7 +68,7 @@
         },
         "packaging": {
             "hashes": [],
-            "version": "==24.0"
+            "version": "==24.1"
         },
         "pluggy": {
             "hashes": [],
@@ -76,7 +76,7 @@
         },
         "pycodestyle": {
             "hashes": [],
-            "version": "==2.11.1"
+            "version": "==2.12.0"
         },
         "pyflakes": {
             "hashes": [],
@@ -88,7 +88,7 @@
         },
         "pytest": {
             "hashes": [],
-            "version": "==8.2.0"
+            "version": "==8.2.2"
         },
         "pytest-cov": {
             "hashes": [],
@@ -112,7 +112,7 @@
         },
         "zipp": {
             "hashes": [],
-            "version": "==3.18.1"
+            "version": "==3.19.2"
         }
     }
 }
