@@ -18,7 +18,7 @@
     "default": {
         "certifi": {
             "hashes": [],
-            "version": "==2024.7.4"
+            "version": "==2024.8.30"
         },
         "chardet": {
             "hashes": [],
@@ -112,7 +112,7 @@
         },
         "zipp": {
             "hashes": [],
-            "version": "==3.20.0"
+            "version": "==3.20.1"
         }
     }
 }
