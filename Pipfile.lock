@@ -26,7 +26,7 @@
         },
         "idna": {
             "hashes": [],
-            "version": "==3.8"
+            "version": "==3.10"
         },
         "requests": {
             "hashes": [],
