@@ -26,7 +26,7 @@
         },
         "idna": {
             "hashes": [],
-            "version": "==3.8"
+            "version": "==3.10"
         },
         "requests": {
             "hashes": [],
@@ -34,7 +34,7 @@
         },
         "urllib3": {
             "hashes": [],
-            "version": "==2.2.2"
+            "version": "==2.2.3"
         }
     },
     "develop": {
@@ -44,7 +44,7 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==7.6.1"
+            "version": "==7.6.4"
         },
         "exceptiongroup": {
             "hashes": [],
@@ -56,7 +56,7 @@
         },
         "importlib-metadata": {
             "hashes": [],
-            "version": "==8.4.0"
+            "version": "==8.5.0"
         },
         "mccabe": {
             "hashes": [
@@ -84,11 +84,11 @@
         },
         "pyparsing": {
             "hashes": [],
-            "version": "==3.1.4"
+            "version": "==3.2.0"
         },
         "pytest": {
             "hashes": [],
-            "version": "==8.3.2"
+            "version": "==8.3.3"
         },
         "pytest-cov": {
             "hashes": [],
@@ -99,12 +99,8 @@
             "version": "==3.14.0"
         },
         "tomli": {
-            "hashes": [
-                "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc",
-                "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"
-            ],
-            "markers": "python_version < '3.11'",
-            "version": "==2.0.1"
+            "hashes": [],
+            "version": "==2.0.2"
         },
         "wcwidth": {
             "hashes": [],
@@ -112,7 +108,7 @@
         },
         "zipp": {
             "hashes": [],
-            "version": "==3.20.1"
+            "version": "==3.20.2"
         }
     }
 }
