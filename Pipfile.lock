@@ -68,7 +68,7 @@
         },
         "packaging": {
             "hashes": [],
-            "version": "==24.1"
+            "version": "==24.2"
         },
         "pluggy": {
             "hashes": [],
@@ -108,7 +108,7 @@
         },
         "zipp": {
             "hashes": [],
-            "version": "==3.20.2"
+            "version": "==3.21.0"
         }
     }
 }
