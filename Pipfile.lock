@@ -44,7 +44,7 @@
         },
         "coverage": {
             "hashes": [],
-            "version": "==7.6.4"
+            "version": "==7.6.7"
         },
         "exceptiongroup": {
             "hashes": [],
@@ -100,7 +100,7 @@
         },
         "tomli": {
             "hashes": [],
-            "version": "==2.0.2"
+            "version": "==2.1.0"
         },
         "wcwidth": {
             "hashes": [],
