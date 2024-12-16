@@ -18,7 +18,7 @@
     "default": {
         "certifi": {
             "hashes": [],
-            "version": "==2024.8.30"
+            "version": "==2024.12.14"
         },
         "chardet": {
             "hashes": [],
@@ -40,11 +40,11 @@
     "develop": {
         "attrs": {
             "hashes": [],
-            "version": "==24.2.0"
+            "version": "==24.3.0"
         },
         "coverage": {
             "hashes": [],
-            "version": "==7.6.7"
+            "version": "==7.6.9"
         },
         "exceptiongroup": {
             "hashes": [],
@@ -88,7 +88,7 @@
         },
         "pytest": {
             "hashes": [],
-            "version": "==8.3.3"
+            "version": "==8.3.4"
         },
         "pytest-cov": {
             "hashes": [],
@@ -100,7 +100,7 @@
         },
         "tomli": {
             "hashes": [],
-            "version": "==2.1.0"
+            "version": "==2.2.1"
         },
         "wcwidth": {
             "hashes": [],
