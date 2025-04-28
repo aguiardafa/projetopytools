@@ -18,7 +18,7 @@
     "default": {
         "certifi": {
             "hashes": [],
-            "version": "==2024.8.30"
+            "version": "==2025.4.26"
         },
         "chardet": {
             "hashes": [],
