@@ -18,7 +18,7 @@
     "default": {
         "certifi": {
             "hashes": [],
-            "version": "==2024.8.30"
+            "version": "==2025.4.26"
         },
         "chardet": {
             "hashes": [],
@@ -34,17 +34,17 @@
         },
         "urllib3": {
             "hashes": [],
-            "version": "==2.2.3"
+            "version": "==2.4.0"
         }
     },
     "develop": {
         "attrs": {
             "hashes": [],
-            "version": "==24.2.0"
+            "version": "==25.3.0"
         },
         "coverage": {
             "hashes": [],
-            "version": "==7.6.7"
+            "version": "==7.8.0"
         },
         "exceptiongroup": {
             "hashes": [],
@@ -52,11 +52,11 @@
         },
         "flake8": {
             "hashes": [],
-            "version": "==7.1.1"
+            "version": "==7.2.0"
         },
         "importlib-metadata": {
             "hashes": [],
-            "version": "==8.5.0"
+            "version": "==8.7.0"
         },
         "mccabe": {
             "hashes": [
@@ -68,7 +68,7 @@
         },
         "packaging": {
             "hashes": [],
-            "version": "==24.2"
+            "version": "==25.0"
         },
         "pluggy": {
             "hashes": [],
@@ -76,23 +76,23 @@
         },
         "pycodestyle": {
             "hashes": [],
-            "version": "==2.12.1"
+            "version": "==2.13.0"
         },
         "pyflakes": {
             "hashes": [],
-            "version": "==3.2.0"
+            "version": "==3.3.2"
         },
         "pyparsing": {
             "hashes": [],
-            "version": "==3.2.0"
+            "version": "==3.2.3"
         },
         "pytest": {
             "hashes": [],
-            "version": "==8.3.3"
+            "version": "==8.3.5"
         },
         "pytest-cov": {
             "hashes": [],
-            "version": "==6.0.0"
+            "version": "==6.1.1"
         },
         "pytest-mock": {
             "hashes": [],
@@ -100,7 +100,7 @@
         },
         "tomli": {
             "hashes": [],
-            "version": "==2.1.0"
+            "version": "==2.2.1"
         },
         "wcwidth": {
             "hashes": [],
